@@ -3,78 +3,122 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+
     <title>Semantic html</title>
   </head>
-  <body>
+  <body class="container">
     <header>
       <nav>
-        <ul>
-          <li><a href="#">lifestyle</a></li>
-          <li><a href="#">photodiary</a></li>
-          <li><a href="#">music</a></li>
-          <li><a href="#">travel</a></li>
+        <ul class="site-navigation">
+          <li class="site-navigation-item"><a href="#">lifestyle</a></li>
+          <li class="site-navigation-item"><a href="#">photodiary</a></li>
+          <li class="site-navigation-item"><a href="#">music</a></li>
+          <li class="site-navigation-item"><a href="#">travel</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section>
         <h1>Articles</h1>
-        <ul>
-          <li>
+        <ul class="article-list">
+          <li class="article-list-item">
             <img
+              class="article-image"
               src="/images/dancing_girl@1X.png"
               alt="dancing girl in the party"
               width="420"
               height="280"
             />
-            <p>Lifestyle</p>
+            <p class="article-category">Lifestyle</p>
             <h2>More than just a music festival</h2>
-            <p>
+            <p class="article-description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
             </p>
           </li>
-          <li>
+          <li class="article-list-item">
             <img
+              class="article-image"
               src="/images/cup_of_coffe@1X.png"
               alt="cup of coffe in the hand"
               width="420"
               height="280"
             />
-            <p>Lifestyle</p>
+            <p class="article-category">Lifestyle</p>
             <h2>Life tastes better with coffee</h2>
-            <p>
+            <p class="article-description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
             </p>
           </li>
-          <li>
+          <li class="article-list-item">
             <img
+              class="article-image"
               src="/images/girls_and_a_bridge@1X.png"
               alt="girls near the bridge"
               width="420"
               height="280"
             />
-            <p>photodiary</p>
+            <p class="article-category">photodiary</p>
             <h2>American dream</h2>
-            <p>
+            <p class="article-description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
             </p>
           </li>
-          <li>
+          <li class="article-list-item">
             <img
+              class="article-image"
               src="/images/girl_in_the_hat@1X.png"
               alt="girl in the hat"
               width="420"
               height="280"
             />
-            <p>Lifestyle</p>
+            <p class="article-category">Lifestyle</p>
             <h2>A day exploring the Alps</h2>
-            <p>
+            <p class="article-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            </p>
+          </li>
+          <li class="article-list-item">
+            <img
+              class="article-image"
+              src="/images/image.png"
+              alt="girl in the hat"
+              width="420"
+              height="280"
+            />
+            <p class="article-category">Lifestyle</p>
+            <h2>Top 10 song for running</h2>
+            <p class="article-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            </p>
+          </li>
+          <li class="article-list-item">
+            <img
+              class="article-image"
+              src="/images/road.png"
+              alt="girl in the hat"
+              width="420"
+              height="280"
+            />
+            <p class="article-category">Lifestyle</p>
+            <h2>Cold winter days</h2>
+            <p class="article-description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -83,8 +127,8 @@
         </ul>
       </section>
     </main>
-    <div>
-      <button>load more</button>
+    <div class="load">
+      <button class="load-more-btn" type="button">Load more</button>
     </div>
   </body>
 </html>
