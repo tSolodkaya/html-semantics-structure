@@ -64,6 +64,7 @@ h1 {
   margin-right: 60px;
   margin-bottom: 130px;
   font-size: 14px;
+  vertical-align: top;
 }
 .article-list-item:nth-child(2n) {
   margin-right: 0;
