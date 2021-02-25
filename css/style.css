@@ -87,6 +87,7 @@ h1 {
 }
 .load-more-btn {
   cursor: pointer;
+  background-color: #ffffff;
   border: 1px solid #626262;
   margin: 0 0 70px 0;
   padding: 16px 35px 16px 35px;
